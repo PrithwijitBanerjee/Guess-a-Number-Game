@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.main-container {
+    background-color: rgb(167, 113, 113);
+    color: white;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.again-btn {
+    margin-left: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.header-range {
+    margin-right: 70px;
+}
+
+.display-hidden-num{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10em;
+        font-weight: bolder;
+}
+
+.body{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-margin, .right-margin{
+    width: 50%;
+    background-color: white;
+    height: 10px;
+    align-self: center;
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+.footer{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="number"] {
+   height: 40px;
+   width: 200px;
+   text-align: center;
+   border: 2px solid black;
+   font-weight: bolder;
+   font-size: 1em;
+}
+
+.submit-btn{
+    border: 2px solid black;
+    height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.scores-container, .highest-scores-container{
+    display: flex;
+}
+
+.score-val, .highest-score-val{
+    margin-left: 10px;
+}
+
+.score-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

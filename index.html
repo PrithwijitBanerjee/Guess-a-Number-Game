@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a number game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        crossorigin="anonymous">
+
+    <script src="./script/script.js" type="text/javascript" defer></script>
+</head>
+
+<body class="main-container">
+    <div>
+        <div class="header">
+            <button class="again-btn">Again</button>
+            <h1 class="header-range">Between (1 - 20)</h1>
+        </div>
+        <div class="body">
+            <div class="left-margin"></div>
+            <div class="display-hidden-num"></div>
+            <div class="right-margin"></div>
+        </div>
+        <div class="output"></div>
+        <div class="footer">
+            <div class="form-container">
+                <input type="number" id="num" placeholder="Enter Number">
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+            <div class="score-info">
+                <div class="scores-container">
+                    <h3 class="score-header"><i class="fas fa-hand-rock" style="color: yellow;"></i> Score: </h3>
+                    <h3 class="score-val"></h3>
+                </div>
+                <div class="highest-scores-container">
+                    <h3 class="score-header"><i class="fas fa-star" style="color: yellow;"></i> Highest Score: </h3>
+                    <h3 class="highest-score-val"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
