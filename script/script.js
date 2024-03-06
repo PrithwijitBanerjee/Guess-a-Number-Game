@@ -23,6 +23,7 @@ const resetValFn = () => {
     displayEle.innerText = displayValue; // DOM Manipulation
     msgEle.innerText = "Guess the Number?";
     msgEle.style.color = "white";
+    inputEle.value = "";
 }
 
 // Page refresh or when the page first time loads ...
